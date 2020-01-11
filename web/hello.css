@@ -1,6 +1,9 @@
 p{
 	font-family: comic sans ms;
 	font-size: 25px;
-	color: purple;
+	color: blue;
 	text-align: center;
+}
+p.author{
+	color: red;
 }
