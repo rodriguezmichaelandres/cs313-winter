@@ -31,7 +31,7 @@ if(isset($_POST["validate"]))
 	}
 }
 
-echo '<br><a href="car.html"><button name="return" type="button" class="btnPhp">Continue shopping</button></a><br>';
+echo '<br><br><a href="car.html"><button name="return" type="button" class="btnPhp">Continue shopping</button></a><br><br>';
 
-echo '<button name="send" type="submit">Submit</button>';
+echo '<a href = "confirm.html"><button name="send" type="submit">Submit</button></a>';
 ?>
