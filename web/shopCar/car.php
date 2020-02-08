@@ -3,19 +3,14 @@
 
 //print_r($_SESSION);
 echo "before if";
-if (isset ($_POST['validate'])){
-	
-	$arrayCheck = $_POST['book'];
-	//$num = count[$arrayCheck];
-	
-	print_r('Check box: '.$num.'<br>');
-	
-	print_r('Valores: <br>');
-	
-	for($n = 6; $n < $num; $n++){
-		print_r()$arrayCheck[$n].'<br>';
+
+$arr_use = $_POST["book"];
+
+for($i=0; $i<count($arr_use); $i++)
+{
+	if($arr_use[$i] != NULL){
+		echo $arr_use[$i];
 	}
-}
 
 /*if(!(empty($_POST['book']))){
 	echo "<br>";
