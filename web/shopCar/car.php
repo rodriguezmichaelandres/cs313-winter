@@ -1,5 +1,5 @@
 <?php 
-session_start();
+//session_start();
 
 print_r($_SESSION);
 /*
@@ -18,5 +18,5 @@ foreach ($_POST['checkboxes'] as $option){
 }
 
 
-session_destroy();
+//session_destroy();
 ?>
