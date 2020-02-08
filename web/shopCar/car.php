@@ -3,11 +3,17 @@
 
 //print_r($_SESSION);
 
+if(!(empty($_POST['product']))){
+	foreach($_POST['product'] as $product){		
+		echo $product."<br>";	
+	}
+}
+/*
 $active = filter_input(INPUT_POST, 'product', FILTER_VALIDATE_BOOLEAN);
 
 if (!isset($POST['product']))
 	$active = 0;
-echo $active;
+echo $active;*/
 /*$active = [];
 
 foreach ($_POST['checkboxes'] as $option){
