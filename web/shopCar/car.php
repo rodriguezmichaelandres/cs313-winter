@@ -26,6 +26,9 @@ if(isset($_POST["validate"]))
         echo "<b>" . "The fire by night" . "<br>" . "<img src='https://images-na.ssl-images-amazon.com/images/I/51rJwAZgS4L._SX331_BO1,204,203,200_.jpg' class='photosBooksPhp'/></b><br>";
 	}
 	
+	if(isset($_POST["total"])){
+		echo "Total: ".$_POST["total"];
+	}
 }
 
 echo '<br><a href="car.html"><button name="return" type="button" class="btnPhp">Continue shopping</button></a><br>'
