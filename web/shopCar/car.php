@@ -3,7 +3,7 @@
 
 //print_r($_SESSION);
 echo '<link rel="stylesheet" href="car.css" type="text/css">';
-
+echo '<title>Shopping Cart</title>';
 
 if(isset($_POST["validate"]))
 { 
