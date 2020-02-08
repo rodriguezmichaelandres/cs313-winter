@@ -4,6 +4,7 @@
 //print_r($_SESSION);
 echo "before if";
 if(!(empty($_POST['book']))){
+	echo "<br>";
 	foreach($_POST['book'] as $book){		
 		echo $book."<br>";	
 	}
