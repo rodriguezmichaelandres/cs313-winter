@@ -18,16 +18,9 @@
         <span id="addressError" class="error_msg">Please enter an address.</span>
     </div>
 
-<br>
-    <div class="form_item">
-        <label for="total">Total</label>
-        <input id="total" name="total" type="text" readonly>
-    </div>
-
-
-<br>
 
     <div class="form_item">
+	<link rel=styleSheet href="car.html" type="text/css" >
         <button name="reset" id="reset" type="reset">Reset</button>
         <button name="validate" type="submit" onClick="recheckForm()">Submit</button>
     </div>
@@ -48,18 +41,6 @@ the scripts could be put into an external js file
 		document.getElementById("reset").click();
 	}
 
-	function updateTotal() {
-		var products = document.getElementsByClassName("product");
-		var total = 0;
-
-		for (var i = 0; i < products.length; i++) {
-			if (products[i].checked) {
-				total += parseFloat(products[i].value.split("|")[1]);
-			}
-		}
-
-		document.getElementById("total").value = total.toFixed(2);
-	}
 
 	function validateForm(el) {
 		var value = el.value;
@@ -67,25 +48,9 @@ the scripts could be put into an external js file
 
 		var validation = "success";
 		switch (id) {
-			case "firstname":
-			case "lastname":
+
 			case "address":
 				if (value.length < 1) {
-					validation = "error";
-				}
-				break;
-			case "phone":
-				if (!value.match(/^\s*\d{3}-\d{3}-\d{4}\s*$/)) {
-					validation = "error";
-				}
-				break;
-			case "creditcard":
-				if (!value.match(/^\s*\d{4}\ \d{4}\ \d{4}\ \d{4}|\d{16}\s*$/)) {
-					validation = "error";
-				}
-				break;
-			case "expiration":
-				if (!value.match(/^\s*([1-9]|[12]\d|[3][01])\/((1((7(5[3-9]|[6-9]\d))|[89]\d{2}))|(2(0\d{2}|10{2})))\s*$/)) {
 					validation = "error";
 				}
 				break;
