@@ -1,13 +1,13 @@
 <?php 
 //session_start();
 
-print_r($_SESSION);
+//print_r($_SESSION);
 /*
 $active = filter_input(INPUT_POST, 'product', FILTER_VALIDATE_BOOLEAN);
 
 if (!isset($POST['product']))
 	$active = 0;*/
-$active = [];
+/*$active = [];
 
 foreach ($_POST['checkboxes'] as $option){
 	if($option){
@@ -16,7 +16,8 @@ foreach ($_POST['checkboxes'] as $option){
 		$active[$option] = 0;
 	}
 }
-
+*/
+echo "hola"; 
 
 //session_destroy();
 ?>
