@@ -6,13 +6,13 @@ echo "before if";
 if (isset ($_POST['validate'])){
 	
 	$arrayCheck = $_POST['book'];
-	$num = count[$arrayCheck];
+	//$num = count[$arrayCheck];
 	
 	print_r('Check box: '.$num.'<br>');
 	
 	print_r('Valores: <br>');
 	
-	for($n = 0; $n < $num; $n++){
+	for($n = 6; $n < $num; $n++){
 		print_r()$arrayCheck[$n].'<br>';
 	}
 }
