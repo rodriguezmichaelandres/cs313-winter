@@ -7,11 +7,8 @@ echo "before";
 if(isset($_POST["validate"]))
 {
 	echo "inside 1"; 
-	if(isset($_POST["book_0"]))
-	{
-		echo $_POST["book_0"];
-		echo "inside 2"; 
-	}
+    if(isset($_POST["book_0"]))
+        echo $_POST["book_0"];
 }
 echo "after"; 
 
