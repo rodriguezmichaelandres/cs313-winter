@@ -4,6 +4,9 @@
 //print_r($_SESSION);
 echo '<link rel="stylesheet" href="car.css" type="text/css">';
 
+echo '<style>
+		margin-left: 5rem; </style>'
+
 if(isset($_POST["validate"]))
 { 
     if(isset($_POST["book_0"])){
