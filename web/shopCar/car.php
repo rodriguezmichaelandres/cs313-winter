@@ -7,8 +7,9 @@ if(!(empty($_POST['book']))){
 	echo "<br>";
 	foreach($_POST['book'] as $book){		
 		echo $book."<br>";	
+		echo "close if statement";
 	}
-	echo "close if statement";
+	
 }
 /*
 $active = filter_input(INPUT_POST, 'product', FILTER_VALIDATE_BOOLEAN);
