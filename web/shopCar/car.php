@@ -5,7 +5,7 @@
 echo '<link rel="stylesheet" href="car.css" type="text/css">';
 
 echo '<style>
-		margin-left: 5rem; </style>';
+		margin-left: 205rem; </style>';
 
 if(isset($_POST["validate"]))
 { 
