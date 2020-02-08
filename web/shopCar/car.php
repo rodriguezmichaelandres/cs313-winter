@@ -27,6 +27,6 @@ if(isset($_POST["validate"]))
 	
 }
 
-echo '<button name="return" type="button" href="car.html">Continue shopping</button><br>'
+echo '<a href="car.html"><button name="return" type="button">Continue shopping</button></a><br>'
 
 ?>
