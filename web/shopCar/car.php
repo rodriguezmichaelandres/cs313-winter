@@ -2,11 +2,12 @@
 //session_start();
 
 //print_r($_SESSION);
-
+echo "before if";
 if(!(empty($_POST['product']))){
 	foreach($_POST['product'] as $product){		
 		echo $product."<br>";	
 	}
+	echo "close if statement";
 }
 /*
 $active = filter_input(INPUT_POST, 'product', FILTER_VALIDATE_BOOLEAN);
