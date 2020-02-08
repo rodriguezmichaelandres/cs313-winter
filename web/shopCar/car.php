@@ -3,7 +3,21 @@
 
 //print_r($_SESSION);
 echo "before if";
-if(!(empty($_POST['book']))){
+if (isset ($_POST['validate'])){
+	
+	$arrayCheck = $_POST['book'];
+	$num = count[$arrayCheck];
+	
+	print_r('Check box: '.$num.'<br>');
+	
+	print_r('Valores: <br>');
+	
+	for($n = 0; $n < $num; $n++){
+		print_r()$arrayCheck[$n].'<br>';
+	}
+}
+
+/*if(!(empty($_POST['book']))){
 	echo "<br>";
 	foreach($_POST['book'] as $book){		
 		echo $book."<br>";	
@@ -11,7 +25,7 @@ if(!(empty($_POST['book']))){
 	}
 	
 }
-/*
+
 $active = filter_input(INPUT_POST, 'product', FILTER_VALIDATE_BOOLEAN);
 
 if (!isset($POST['product']))
