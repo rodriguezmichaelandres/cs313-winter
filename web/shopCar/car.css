@@ -1,0 +1,32 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.photosBooks{
+	width: 120px;
+	height: 150px;
+	 margin-left: 5rem; 
+	 margin-right: 5rem; 
+}
+
+body{
+	padding: 1rem;
+}
+
+.contain{
+	max-width: 1170px;
+	margin-left: 5rem;
+	margin-right: auto;
+	padding: 1em;
+}
+
+
+.title{
+	text-align: center;
+}
+
+.desc{
+	margin-left: 5rem;
+	margin-right: 5rem;	
+}
