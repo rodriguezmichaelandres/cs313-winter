@@ -12,6 +12,12 @@
 
 body{
 	padding: 1rem;
+	background-image: url("https://fondos.io/wp-content/uploads/2019/01/wood-wallpapers-hd_929.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: Arial;
+	font-size: 15px;
+	color:white;
 }
 
 .contain{
