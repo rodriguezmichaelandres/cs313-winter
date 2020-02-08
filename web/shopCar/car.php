@@ -7,6 +7,7 @@ $active = filter_input(INPUT_POST, 'product', FILTER_VALIDATE_BOOLEAN);
 
 if (!isset($POST['product']))
 	$active = 0;
+echo $active;
 /*$active = [];
 
 foreach ($_POST['checkboxes'] as $option){
@@ -17,7 +18,7 @@ foreach ($_POST['checkboxes'] as $option){
 	}
 }*/
 
-//echo "hola"; 
+echo "hola"; 
 
 //session_destroy();
 ?>
