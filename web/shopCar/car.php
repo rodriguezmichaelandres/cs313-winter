@@ -3,9 +3,9 @@
 
 //print_r($_SESSION);
 echo "before if";
-if(!(empty($_POST['product']))){
-	foreach($_POST['product'] as $product){		
-		echo $product."<br>";	
+if(!(empty($_POST['book']))){
+	foreach($_POST['book'] as $book){		
+		echo $book."<br>";	
 	}
 	echo "close if statement";
 }
