@@ -27,7 +27,7 @@ if(isset($_POST["validate"]))
 	}
 	
 	if(isset($_POST["total"])){
-		echo "Total: ".$_POST["total"];
+		echo "<br><b>"."Total: ".$_POST["total"]."</b>";
 	}
 }
 
