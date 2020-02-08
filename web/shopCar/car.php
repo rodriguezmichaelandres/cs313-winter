@@ -4,8 +4,6 @@
 //print_r($_SESSION);
 echo '<link rel="stylesheet" href="car.css" type="text/css">';
 
-echo '<style>
-		margin-left: 205rem; </style>';
 
 if(isset($_POST["validate"]))
 { 
@@ -30,6 +28,6 @@ if(isset($_POST["validate"]))
 	
 }
 
-echo '<a href="car.html"><button name="return" type="button">Continue shopping</button></a><br>'
+echo '<br><a href="car.html"><button name="return" type="button" class="btnPhp">Continue shopping</button></a><br>'
 
 ?>
