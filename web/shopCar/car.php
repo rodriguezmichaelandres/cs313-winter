@@ -2,7 +2,7 @@
 //session_start();
 
 //print_r($_SESSION);
-<link rel="stylesheet" href="car.css" type="text/css">
+echo '<link rel="stylesheet" href="car.css" type="text/css">'
 
 if(isset($_POST["validate"]))
 { 
