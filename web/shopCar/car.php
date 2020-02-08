@@ -26,7 +26,7 @@ if(isset($_POST["validate"]))
 	}
 	
 }
-//echo "after"; 
 
-//session_destroy();
+echo '<button name="return" type="button" href="../">Continue shopping</button><br>'
+
 ?>
